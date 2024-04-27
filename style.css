@@ -1,0 +1,77 @@
+body {
+  font-family: tahoma;
+  margin: 20px;
+  background-color: #161616;
+  color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #f7ecec;
+}
+
+#budget-form,
+#expense-form {
+  background-color: #080808;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f5ebeb;
+}
+
+input,
+button {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #0d0144;
+  color: #fff;
+  cursor: pointer;
+}
+
+#initial-budget,
+#remaining-budget {
+  font-weight: bold;
+  color: #333;
+}
+
+#expenses-list {
+  background-color: #070707;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.expense {
+  margin-bottom: 10px;
+  border: 1px solid #c8dfca;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3200e6;
+}
+
+.expense button {
+  padding: 6px;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.exceeded {
+  color: #e74c3c;
+}
